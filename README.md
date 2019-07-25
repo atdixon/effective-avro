@@ -44,7 +44,7 @@ using Kafka CLI tools (like ./bin/kafka-console-consumer.sh):
 
     $ cd deserializer
     $ mvn clean package
-    $ cp target/schema-registry-deserializer-0.1-SNAPSHOT.jar ../services/kafka_2.12-2.2.0
+    $ cp target/schema-registry-deserializer-0.1-SNAPSHOT.jar ../services/kafka_2.12-2.2.0/libs/
     
 (See below how to use this.)
 
