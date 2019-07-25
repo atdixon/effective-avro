@@ -1,0 +1,6 @@
+{:deps {curbside/abracad {:mvn/version "0.4.19"}
+        org.apache.avro/avro {:mvn/version "1.9.0"}
+        org.apache.kafka/kafka-clients {:mvn/version "2.3.0"}
+        io.confluent/kafka-schema-registry-client {:mvn/version "5.3.0"}}
+ :mvn/repos
+ {"confluent" {:url "http://packages.confluent.io/maven/"}}}

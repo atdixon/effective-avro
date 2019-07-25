@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "blue",
+  "fields": [
+    {
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "name": "event_type",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "green",
+  "fields": [
+    {
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "string"
+    }
+  ]
+}
