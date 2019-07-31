@@ -99,7 +99,7 @@ Show topic messages from the very beginning:
 *** ^^ This will show the messages using the original writer's schema for EACH message. To use an explicit reader schema:
 
     ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my-topic
-        \ --property value.deserializer=AppleDeserializer --property value.deserializer.reader-schema=demo.person/2
+        \ --property value.deserializer=SchemaRegistryDeserializer --property value.deserializer.reader-schema=demo.person/2
         
 *** ^^ The exact format of the reader-schema here is <full-subject-name>/<version>
 
