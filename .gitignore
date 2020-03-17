@@ -1,2 +1,6 @@
 services/
 target/
+.nrepl-port
+*.iml
+.idea
+projectFilesBackup
